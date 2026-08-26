@@ -1,0 +1,10 @@
+product_name="RAM"
+product_quantity=5
+prouct_price=102300.50
+product_available=True
+product_discount=None
+print(type(product_name))
+print(type(product_quantity))
+print(type(prouct_price))
+print(type(product_available))
+print(type(product_discount))
