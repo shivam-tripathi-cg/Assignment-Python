@@ -1,4 +1,4 @@
-#Que-1
+#Q1
 def show(n):
     if n == 0:
         print("Stop")
@@ -12,7 +12,7 @@ show(2)
 
 
 
-#Que-2
+#Q2
 def total(n):
     if n == 0:
         return 0
@@ -21,7 +21,7 @@ def total(n):
 
 
 
-#Que-3
+#Q3
 def count(n):
     if n == 0:
         return
@@ -29,7 +29,7 @@ def count(n):
     count(n + 1)
 
 
-#Que-4
+#Q4
 def answer(n):
     if n == 0:
         return 0
@@ -42,7 +42,7 @@ def answer(n):
 
 
 
-#Que-5
+#Q5
 def countdown(n):
     if n == 0:
         return "Done!"
@@ -51,7 +51,7 @@ def countdown(n):
 print(countdown(3))
 
 
-#Que-6
+#Q6
 def count_up(n):
     if n == 0:
         return 
@@ -62,7 +62,7 @@ def count_up(n):
 print(count_up(1))
 
 
-#Que-7
+#Q7
 def sum_to(n):
     if n <= 0:
         return 0
@@ -70,15 +70,15 @@ def sum_to(n):
 print(sum_to(0))
 
 #
-#Que-8
+#Q8
 def factorial(n):
     if n == 0:
         return 1
     return n * factorial(n-1)
 print(factorial(5))
 
-#
-#Que-9
+
+#Q9
 def digit_sum(n):
     if n < 10:
         return n
@@ -86,11 +86,11 @@ def digit_sum(n):
 print(digit_sum(583))
 
 
-#Que-10
 
 
 
-#Que-11
+
+#Q11
 def count_digits(n):
     if -10 < n < 10:
         return 1
@@ -99,7 +99,7 @@ def count_digits(n):
 print(count_digits(0))
 
 
-#Que-12
+#Q12
 def reverse_text(n):
     if n == "":
         return ""
@@ -109,7 +109,7 @@ print(reverse_text("qwe"))
 
 
 
-#Que-14
+#Q14
 def max_digit(n):
     if n == 0:
         return 0
